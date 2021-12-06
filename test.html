@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Centre de cours des langues TIFINAGH webpage</title>
+        <link rel="stylesheet" href="test.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+   </head>
+    <body>
+      <section class="header">
+         <nav>
+			 <a href="index.html"><img src= "images/azul.png" ></a>
+			 <div class="nav-links" id="navLinks">
+				 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+					 <li><a href="">HOME</a></li>
+					 <li><a href="">ABOUT</a></li>
+					 <li><a href="">COURSE</a></li>
+					 <li><a href="">BLOG</a></li>
+					 <li><a href="">CONTACT</a></li>
+				 </ul>
+			 </div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+		 </nav>
+<div class="text-box">
+	<h1> BEST LANGAGE CENTER IN MOROCCO</h1>
+	<p>TIFINAGH is your first choice if you want to learn a langage , 
+		serving over 16,000 language learners  each year.<br>
+		  Our facilities include 28 modern and comfortable classrooms,
+		   seminar and activity spaces, a bookstore and garden. </p>
+	<a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+		 </section>
+<!-----javascript for menu------->
+		 <script>
+			 var navLinks=document.getElementById("navLinks");
+			 function showMenu();
+			 navLinks.style.right ="0";
+			 function hideMenu();
+			 navLinks.style.right ="-200px";
+		 </script>
+<!-----course-->
+<section class="course">
+	<h1>Courses We Offer </h1>
+    <p>Curretly we only offer three language courses the number <br>will certainly increase</p>
+    <div class="row">
+		<div class="course-col">
+			<h3>SPANISH</h3>
+			<p>Learn with us.We prapare students for real intercultural communication we offer wide range of spanish language programmes that emphasize rhe participant's ability to communicate.</p>
+		</div>
+        <div class="course-col">
+			<h3>FRENSH</h3>
+			<p>We propose frensh language courses tailored to meet the needs of the learner, and we pay attention to the specific characteristics of each learner.</p>
+		</div>
+		<div class="course-col">
+			<h3>ENGLISH</h3>
+			<p>We offer a variety of english language courses.our courses are intensive for students planing to attend an english university.</p>
+		</div>
+	</div>
+
+</section>
+<!----campus----->
+<section class="campus">
+<h1>Where You Can Find Us</h1>
+<p>We are currently in 3 cities in morocco and soon we<br> will be in :Tangier,Agadir and oujda.</p>
+  <div class="row">
+	  <div class ="campus-col">
+		  <img src="images/marrakech.png">
+	      <div class="layer">
+		  <h3>CASABLANCA</h3>
+	     </div>
+	  </div>
+	  <div class ="campus-col">
+		<img src="images/rabattt.png">
+	    <div class="layer">
+		<h3>RABAT</h3>
+		</div>
+	  </div>
+	   <div class ="campus-col">
+		<img src="images/casablancaa.png">
+	     <div class="layer">
+		<h3>MARRAKECH</h3>
+        </div>	
+	</div>
+  </div>
+
+</section>
+<
+
+    </body>
+</html>
